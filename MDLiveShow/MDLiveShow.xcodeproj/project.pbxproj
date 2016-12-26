@@ -407,6 +407,28 @@
 		B3AE93C31E112D40004FC685 /* XLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AE92321E112D3F004FC685 /* XLProfileViewController.m */; };
 		B3AE93C41E112D40004FC685 /* XLWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AE92361E112D3F004FC685 /* XLWaveView.m */; };
 		B3AE93C51E112D40004FC685 /* XLSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AE923A1E112D3F004FC685 /* XLSearchViewController.m */; };
+		B3AE93C81E112FEC004FC685 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93C71E112FEC004FC685 /* CoreTelephony.framework */; };
+		B3AE93CA1E112FF6004FC685 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93C91E112FF6004FC685 /* Social.framework */; };
+		B3AE93CC1E113082004FC685 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93CB1E113082004FC685 /* libsqlite3.0.tbd */; };
+		B3AE93CE1E11308D004FC685 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93CD1E11308D004FC685 /* libstdc++.6.0.9.tbd */; };
+		B3AE93D01E113098004FC685 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93CF1E113098004FC685 /* libiconv.2.4.0.tbd */; };
+		B3AE93D21E1130DE004FC685 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93D11E1130DE004FC685 /* UIKit.framework */; };
+		B3AE93D41E1130E6004FC685 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93D31E1130E6004FC685 /* MediaPlayer.framework */; };
+		B3AE93D61E1130F0004FC685 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93D51E1130F0004FC685 /* CoreVideo.framework */; };
+		B3AE93D81E113102004FC685 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93D71E113102004FC685 /* AVFoundation.framework */; };
+		B3AE93DA1E113118004FC685 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93D91E113118004FC685 /* libbz2.1.0.tbd */; };
+		B3AE93DC1E11311F004FC685 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93DB1E11311F004FC685 /* libz.1.1.3.tbd */; };
+		B3AE93DE1E11312C004FC685 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93DD1E11312C004FC685 /* VideoToolbox.framework */; };
+		B3AE93E01E113133004FC685 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93DF1E113133004FC685 /* SystemConfiguration.framework */; };
+		B3AE93E21E113143004FC685 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93E11E113143004FC685 /* QuartzCore.framework */; };
+		B3AE93E41E11314C004FC685 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93E31E11314C004FC685 /* OpenGLES.framework */; };
+		B3AE93E61E113152004FC685 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93E51E113152004FC685 /* MobileCoreServices.framework */; };
+		B3AE93E81E113159004FC685 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93E71E113159004FC685 /* ImageIO.framework */; };
+		B3AE93EA1E113163004FC685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93E91E113163004FC685 /* Foundation.framework */; };
+		B3AE93EC1E11316D004FC685 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93EB1E11316D004FC685 /* CoreMedia.framework */; };
+		B3AE93EE1E113177004FC685 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93ED1E113177004FC685 /* CoreGraphics.framework */; };
+		B3AE93F01E113184004FC685 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93EF1E113184004FC685 /* CFNetwork.framework */; };
+		B3AE93F21E11318F004FC685 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93F11E11318F004FC685 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1224,6 +1246,28 @@
 		B3AE92361E112D3F004FC685 /* XLWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLWaveView.m; sourceTree = "<group>"; };
 		B3AE92391E112D3F004FC685 /* XLSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSearchViewController.h; sourceTree = "<group>"; };
 		B3AE923A1E112D3F004FC685 /* XLSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSearchViewController.m; sourceTree = "<group>"; };
+		B3AE93C71E112FEC004FC685 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B3AE93C91E112FF6004FC685 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B3AE93CB1E113082004FC685 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B3AE93CD1E11308D004FC685 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		B3AE93CF1E113098004FC685 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		B3AE93D11E1130DE004FC685 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3AE93D31E1130E6004FC685 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B3AE93D51E1130F0004FC685 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B3AE93D71E113102004FC685 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B3AE93D91E113118004FC685 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		B3AE93DB1E11311F004FC685 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		B3AE93DD1E11312C004FC685 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		B3AE93DF1E113133004FC685 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B3AE93E11E113143004FC685 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B3AE93E31E11314C004FC685 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B3AE93E51E113152004FC685 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B3AE93E71E113159004FC685 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B3AE93E91E113163004FC685 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3AE93EB1E11316D004FC685 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B3AE93ED1E113177004FC685 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3AE93EF1E113184004FC685 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B3AE93F11E11318F004FC685 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1231,6 +1275,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3AE93F21E11318F004FC685 /* AudioToolbox.framework in Frameworks */,
+				B3AE93F01E113184004FC685 /* CFNetwork.framework in Frameworks */,
+				B3AE93EE1E113177004FC685 /* CoreGraphics.framework in Frameworks */,
+				B3AE93EC1E11316D004FC685 /* CoreMedia.framework in Frameworks */,
+				B3AE93EA1E113163004FC685 /* Foundation.framework in Frameworks */,
+				B3AE93E81E113159004FC685 /* ImageIO.framework in Frameworks */,
+				B3AE93E61E113152004FC685 /* MobileCoreServices.framework in Frameworks */,
+				B3AE93E41E11314C004FC685 /* OpenGLES.framework in Frameworks */,
+				B3AE93E21E113143004FC685 /* QuartzCore.framework in Frameworks */,
+				B3AE93E01E113133004FC685 /* SystemConfiguration.framework in Frameworks */,
+				B3AE93DE1E11312C004FC685 /* VideoToolbox.framework in Frameworks */,
+				B3AE93DC1E11311F004FC685 /* libz.1.1.3.tbd in Frameworks */,
+				B3AE93DA1E113118004FC685 /* libbz2.1.0.tbd in Frameworks */,
+				B3AE93D81E113102004FC685 /* AVFoundation.framework in Frameworks */,
+				B3AE93D61E1130F0004FC685 /* CoreVideo.framework in Frameworks */,
+				B3AE93D41E1130E6004FC685 /* MediaPlayer.framework in Frameworks */,
+				B3AE93D21E1130DE004FC685 /* UIKit.framework in Frameworks */,
+				B3AE93D01E113098004FC685 /* libiconv.2.4.0.tbd in Frameworks */,
+				B3AE93CE1E11308D004FC685 /* libstdc++.6.0.9.tbd in Frameworks */,
+				B3AE93CC1E113082004FC685 /* libsqlite3.0.tbd in Frameworks */,
+				B3AE93CA1E112FF6004FC685 /* Social.framework in Frameworks */,
+				B3AE93C81E112FEC004FC685 /* CoreTelephony.framework in Frameworks */,
 				B3AE93BF1E112D40004FC685 /* libSocialQQ.a in Frameworks */,
 				B3AE92D31E112D3F004FC685 /* libSocialSinaSSO.a in Frameworks */,
 				B3AE93B21E112D40004FC685 /* libUMSocial_Sdk_5.2.1.a in Frameworks */,
@@ -1265,6 +1331,7 @@
 				B3AE8EA71E112C20004FC685 /* MDLiveShowTests */,
 				B3AE8EB21E112C20004FC685 /* MDLiveShowUITests */,
 				B3AE8E8C1E112C20004FC685 /* Products */,
+				B3AE93C61E112FEC004FC685 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2866,6 +2933,35 @@
 				B3AE923A1E112D3F004FC685 /* XLSearchViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3AE93C61E112FEC004FC685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3AE93F11E11318F004FC685 /* AudioToolbox.framework */,
+				B3AE93EF1E113184004FC685 /* CFNetwork.framework */,
+				B3AE93ED1E113177004FC685 /* CoreGraphics.framework */,
+				B3AE93EB1E11316D004FC685 /* CoreMedia.framework */,
+				B3AE93E91E113163004FC685 /* Foundation.framework */,
+				B3AE93E71E113159004FC685 /* ImageIO.framework */,
+				B3AE93E51E113152004FC685 /* MobileCoreServices.framework */,
+				B3AE93E31E11314C004FC685 /* OpenGLES.framework */,
+				B3AE93E11E113143004FC685 /* QuartzCore.framework */,
+				B3AE93DF1E113133004FC685 /* SystemConfiguration.framework */,
+				B3AE93DD1E11312C004FC685 /* VideoToolbox.framework */,
+				B3AE93DB1E11311F004FC685 /* libz.1.1.3.tbd */,
+				B3AE93D91E113118004FC685 /* libbz2.1.0.tbd */,
+				B3AE93D71E113102004FC685 /* AVFoundation.framework */,
+				B3AE93D51E1130F0004FC685 /* CoreVideo.framework */,
+				B3AE93D31E1130E6004FC685 /* MediaPlayer.framework */,
+				B3AE93D11E1130DE004FC685 /* UIKit.framework */,
+				B3AE93CF1E113098004FC685 /* libiconv.2.4.0.tbd */,
+				B3AE93CD1E11308D004FC685 /* libstdc++.6.0.9.tbd */,
+				B3AE93CB1E113082004FC685 /* libsqlite3.0.tbd */,
+				B3AE93C91E112FF6004FC685 /* Social.framework */,
+				B3AE93C71E112FEC004FC685 /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
