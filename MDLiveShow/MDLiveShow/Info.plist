@@ -85,5 +85,20 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>App需要您的同意,才能访问麦克风</string>
+    <key>NSLocationUsageDescription</key>
+    <string>App需要您的同意,才能访问位置</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>App需要您的同意,才能访问媒体资料库</string>
+    <key>NSCameraUsageDescription</key>
+    <string>App需要您的同意,才能访问相机</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>此 App 需要您的同意才能读取媒体资料库</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>App需要您的同意,才能访问提醒事项</string>
+    <key>Privacy - Camera Usage Description</key>
+    <string>允许此权限才能使用相机功能</string>
+    
 </dict>
 </plist>

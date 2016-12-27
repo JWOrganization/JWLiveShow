@@ -3637,8 +3637,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MDLiveShow/Classes/Other/TencentOpenAPI",
 				);
-				GCC_PREFIX_HEADER = "$(SRCROOT)/MDLiveShow/MDLiveShow/MDLiveShow/Classes/Main/PrefixHeader.pch";
-				INFOPLIST_FILE = MDLiveShow/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MDLiveShow/Classes/Main/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MDLiveShow/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -3665,8 +3665,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MDLiveShow/Classes/Other/TencentOpenAPI",
 				);
-				GCC_PREFIX_HEADER = "$(SRCROOT)/MDLiveShow/MDLiveShow/MDLiveShow/Classes/Main/PrefixHeader.pch";
-				INFOPLIST_FILE = MDLiveShow/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MDLiveShow/Classes/Main/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MDLiveShow/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -3751,6 +3751,7 @@
 				B3AE8EBA1E112C20004FC685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3AE8EBB1E112C20004FC685 /* Build configuration list for PBXNativeTarget "MDLiveShowTests" */ = {
 			isa = XCConfigurationList;
@@ -3759,6 +3760,7 @@
 				B3AE8EBD1E112C20004FC685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3AE8EBE1E112C20004FC685 /* Build configuration list for PBXNativeTarget "MDLiveShowUITests" */ = {
 			isa = XCConfigurationList;
@@ -3767,6 +3769,7 @@
 				B3AE8EC01E112C20004FC685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
