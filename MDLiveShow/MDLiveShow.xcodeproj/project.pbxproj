@@ -429,6 +429,7 @@
 		B3AE93EE1E113177004FC685 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93ED1E113177004FC685 /* CoreGraphics.framework */; };
 		B3AE93F01E113184004FC685 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93EF1E113184004FC685 /* CFNetwork.framework */; };
 		B3AE93F21E11318F004FC685 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE93F11E11318F004FC685 /* AudioToolbox.framework */; };
+		B3AE94011E120915004FC685 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE94001E120915004FC685 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1268,6 +1269,7 @@
 		B3AE93ED1E113177004FC685 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B3AE93EF1E113184004FC685 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B3AE93F11E11318F004FC685 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B3AE94001E120915004FC685 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1278,6 +1280,7 @@
 				B3AE93F21E11318F004FC685 /* AudioToolbox.framework in Frameworks */,
 				B3AE93F01E113184004FC685 /* CFNetwork.framework in Frameworks */,
 				B3AE93EE1E113177004FC685 /* CoreGraphics.framework in Frameworks */,
+				B3AE94011E120915004FC685 /* IJKMediaFramework.framework in Frameworks */,
 				B3AE93EC1E11316D004FC685 /* CoreMedia.framework in Frameworks */,
 				B3AE93EA1E113163004FC685 /* Foundation.framework in Frameworks */,
 				B3AE93E81E113159004FC685 /* ImageIO.framework in Frameworks */,
@@ -1385,6 +1388,7 @@
 		B3AE8EC71E112D3D004FC685 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B3AE93FF1E120915004FC685 /* SDK */,
 				B3AE8EC81E112D3D004FC685 /* CrownRank */,
 				B3AE8ECC1E112D3D004FC685 /* Home */,
 				B3AE8F021E112D3D004FC685 /* Live */,
@@ -2964,6 +2968,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B3AE93FF1E120915004FC685 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B3AE94001E120915004FC685 /* IJKMediaFramework.framework */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3636,6 +3648,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MDLiveShow/Classes/Other/TencentOpenAPI",
+					"$(PROJECT_DIR)/MDLiveShow/Classes/SDK",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MDLiveShow/Classes/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MDLiveShow/Info.plist";
@@ -3665,6 +3678,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MDLiveShow/Classes/Other/TencentOpenAPI",
+					"$(PROJECT_DIR)/MDLiveShow/Classes/SDK",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MDLiveShow/Classes/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MDLiveShow/Info.plist";
