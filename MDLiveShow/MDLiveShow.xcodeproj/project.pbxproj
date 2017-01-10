@@ -1389,14 +1389,14 @@
 			isa = PBXGroup;
 			children = (
 				B3AE93FF1E120915004FC685 /* SDK */,
+				B3AE92371E112D3F004FC685 /* Search */,
 				B3AE8EC81E112D3D004FC685 /* CrownRank */,
+				B3AE8F1B1E112D3D004FC685 /* Login */,
 				B3AE8ECC1E112D3D004FC685 /* Home */,
 				B3AE8F021E112D3D004FC685 /* Live */,
-				B3AE8F1B1E112D3D004FC685 /* Login */,
 				B3AE8F251E112D3D004FC685 /* Main */,
-				B3AE8F3A1E112D3E004FC685 /* Other */,
 				B3AE922D1E112D3F004FC685 /* Profile */,
-				B3AE92371E112D3F004FC685 /* Search */,
+				B3AE8F3A1E112D3E004FC685 /* Other */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1700,7 +1700,6 @@
 		B3AE8F2F1E112D3D004FC685 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				B3AE8F301E112D3D004FC685 /* Other */,
 				B3AE8F331E112D3D004FC685 /* Reachability.h */,
 				B3AE8F341E112D3D004FC685 /* Reachability.m */,
 				B3AE8F351E112D3D004FC685 /* XLDealData.h */,
@@ -1709,29 +1708,6 @@
 				B3AE8F381E112D3D004FC685 /* XLLiveTool.m */,
 			);
 			path = Tool;
-			sourceTree = "<group>";
-		};
-		B3AE8F301E112D3D004FC685 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				B3AE8F311E112D3D004FC685 /* Lib */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		B3AE8F311E112D3D004FC685 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				B3AE8F321E112D3D004FC685 /* AFNetworking */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		B3AE8F321E112D3D004FC685 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		B3AE8F3A1E112D3E004FC685 /* Other */ = {

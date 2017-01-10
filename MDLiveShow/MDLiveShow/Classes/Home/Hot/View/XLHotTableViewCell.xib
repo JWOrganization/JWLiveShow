@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -25,7 +29,7 @@
                                     <constraint firstAttribute="width" constant="100" id="76U-i3-wXx"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
-                                <color key="textColor" red="1" green="0.061925395126169125" blue="0.087528251177853234" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.061925395126169125" blue="0.087528251177853234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -48,7 +52,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                 <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="上海市" image="home_location_8x8">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iA-SZ-jxj">
@@ -56,7 +60,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
                                         <attributes>
-                                            <color key="NSColor" red="1" green="0.15587493881670733" blue="0.91707104576844944" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="1" green="0.15587493881670733" blue="0.91707104576844944" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="STHeitiSC-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -102,7 +106,7 @@
                                             <constraint firstAttribute="width" constant="44" id="ylU-QQ-k3x"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
-                                        <color key="textColor" red="0.90438344209999999" green="0.12811716710000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.90438344209999999" green="0.12811716710000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -113,7 +117,7 @@
                                         </variation>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="foD-DI-aA9" secondAttribute="trailing" constant="51" id="0Gi-sz-r7b"/>
                                     <constraint firstItem="zfV-B3-FNz" firstAttribute="leading" secondItem="foD-DI-aA9" secondAttribute="trailing" constant="10" id="0V3-Ei-4WT"/>
@@ -168,7 +172,7 @@
                                 </variation>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="W1D-vq-ckQ" secondAttribute="bottom" constant="26" id="02d-HM-CeI"/>
                             <constraint firstItem="GnI-MN-il8" firstAttribute="centerY" secondItem="cqh-n5-eie" secondAttribute="centerY" constant="-10" id="38U-ei-gjU"/>
@@ -214,11 +218,11 @@
                             <constraint firstAttribute="height" constant="60" id="L40-HG-tJu"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
-                        <color key="textColor" red="1" green="0.19892114029999999" blue="0.85118899079999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" red="1" green="0.19892114029999999" blue="0.85118899079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
-                <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="Q3Z-sB-IHb" secondAttribute="bottom" constant="10" id="5zF-bY-kUC"/>
                     <constraint firstAttribute="trailing" secondItem="Q3Z-sB-IHb" secondAttribute="trailing" id="60m-4g-Av0"/>
@@ -244,7 +248,7 @@
                 <outlet property="signatures" destination="uQB-wW-YyO" id="Wit-Xg-B6v"/>
                 <outlet property="startView" destination="zfV-B3-FNz" id="26q-IT-6c9"/>
             </connections>
-            <point key="canvasLocation" x="302" y="0.0"/>
+            <point key="canvasLocation" x="40" y="39"/>
         </tableViewCell>
     </objects>
     <resources>
