@@ -8,6 +8,7 @@
 //
 
 #import "XLWatchLiveViewController.h"
+
 #import "XLBottomToolView.h"
 #import "XLAnchorInfoView.h"
 #import "XLCatEarView.h"
@@ -674,6 +675,8 @@ long _index = 0;
 
 
 - (void)dealloc{
+
+    
     
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
